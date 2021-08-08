@@ -1,0 +1,85 @@
+solution
+
+#백준 문제풀이 입출력
+#10718번
+print("강한친구 대한육군")
+print("강한친구 대한육군")
+
+#10171번
+print("\\    /\\")
+print(" )  ( ')")
+print("(  /  )")
+print(" \\(__)|")
+# \\ 두번써줘야 빽슬레시로 잘 인식
+
+#10172번
+print('|\\_/|')
+print('|q p|   /}')
+print('( 0 )"""\\')
+print('|"^"`    |')
+print('||_/=\\\\__|')
+
+#1000번
+a, b = input().split()
+a = int(a)
+b = int(b)
+print(a + b)
+
+#1001번
+a, b = input().split()
+a = int(a)
+b = int(b)
+
+print(a - b)
+
+#10998번
+a, b = input().split()
+a = int(a)
+b = int(b)
+
+print(a * b)
+
+#1008번
+a, b = input().split()
+a = int(a)
+b = int(b)
+
+print(a / b)
+
+#10869번
+a, b = input().split()
+a = int(a)
+b = int(b)
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a // b) # // 몫 구할 때 사용
+print(a % b)
+
+#10430번
+A, B, C = input().split()
+A = int(A)
+B = int(B)
+C = int(C)
+
+print((A + B) % C)
+print(((A % C) + (B % C)) % C)
+print((A * B) % C)
+print(((A % C) * (B % C)) % C)
+
+
+#31977469번
+a = int(input())
+b = int(input())
+
+c = int(a * int(b%10))
+d = int(a * int((b%100) / 10))
+e = int(a * int(b/100))
+
+print(c)
+print(d)
+print(e)
+print( c + 10 * d + 100 * e)
+
+#int 사용, 자릿수 검출 아이디어에서 어려움
