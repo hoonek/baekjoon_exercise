@@ -1,7 +1,7 @@
 solution
 
 #백준 문제풀이 입출력
-#10718번
+10718번
 print("강한친구 대한육군")
 print("강한친구 대한육군")
 
@@ -12,41 +12,41 @@ print("(  /  )")
 print(" \\(__)|")
 # \\ 두번써줘야 빽슬레시로 잘 인식
 
-#10172번
+10172번
 print('|\\_/|')
 print('|q p|   /}')
 print('( 0 )"""\\')
 print('|"^"`    |')
 print('||_/=\\\\__|')
 
-#1000번
+1000번
 a, b = input().split()
 a = int(a)
 b = int(b)
 print(a + b)
 
-#1001번
+1001번
 a, b = input().split()
 a = int(a)
 b = int(b)
 
 print(a - b)
 
-#10998번
+10998번
 a, b = input().split()
 a = int(a)
 b = int(b)
 
 print(a * b)
 
-#1008번
+1008번
 a, b = input().split()
 a = int(a)
 b = int(b)
 
 print(a / b)
 
-#10869번
+10869번
 a, b = input().split()
 a = int(a)
 b = int(b)
@@ -57,7 +57,7 @@ print(a * b)
 print(a // b) # // 몫 구할 때 사용
 print(a % b)
 
-#10430번
+10430번
 A, B, C = input().split()
 A = int(A)
 B = int(B)
@@ -69,7 +69,7 @@ print((A * B) % C)
 print(((A % C) * (B % C)) % C)
 
 
-#31977469번
+2588번
 a = int(input())
 b = int(input())
 
@@ -83,3 +83,47 @@ print(e)
 print( c + 10 * d + 100 * e)
 
 #int 사용, 자릿수 검출 아이디어에서 어려움
+
+2557번
+print("Hello World!")
+
+2558번
+a = int(input())
+b = int(input())
+
+print(a + b)
+
+10950번
+
+
+, 10951, 10952, 10953, 11021, 11022, 
+
+
+
+
+11718번
+while True:
+    try:
+        print(input())
+    except EOFError:
+        break
+#EOFrror : 읽어들일 데이터가 더 이상 없을 때 발생하는 에러
+
+11719번
+
+
+, 
+
+
+
+11720번
+
+
+, 
+
+11721번
+
+
+
+ 2741, 2742, 2739, 1924, 8393, 10818, 2438, 2439, 2440, 2441, 2442, 2445, 2522, 2446, 10991, 10992
+
